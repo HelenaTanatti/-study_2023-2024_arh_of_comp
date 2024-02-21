@@ -3,7 +3,7 @@ FILES += $(patsubst %.md, %.pdf, $(wildcard *.md))
 
 LATEX_FORMAT =
 
-FILTER = --filter pandoc-crossref
+FILTER = --filter pandoc-xnos
 
 %.docx: %.md
 	-pandoc "$<" $(FILTER) -o "$@"
