@@ -1,0 +1,1 @@
+sudo apt-get install tex-common texlive-base texlive-base-bin texlive-common texlive-doc-base texlive-fonts-recommended texlive-lang-cyrillic texlive-latex-base texlive-latex-recommended
